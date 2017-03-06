@@ -77,7 +77,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="闫凯博客" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Stephen Curry" type="application/atom+xml" />
 
 
 
@@ -93,7 +93,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="article title">
 <meta property="og:url" content="http://yoursite.com/2017/03/05/article-title/index.html">
-<meta property="og:site_name" content="闫凯博客">
+<meta property="og:site_name" content="Stephen Curry">
 <meta property="og:description" content="傲不可长，欲不可纵，乐不可极，志不可满。">
 <meta property="og:updated_time" content="2017-03-05T12:04:01.873Z">
 <meta name="twitter:card" content="summary">
@@ -132,7 +132,7 @@
 
 
 
-  <title> article title | 闫凯博客 </title>
+  <title> article title | Stephen Curry </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -168,7 +168,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">闫凯博客</span>
+        <span class="site-title">Stephen Curry</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -280,7 +280,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="闫凯博客">
+      <meta itemprop="name" content="Stephen Curry">
     </span>
 
     
@@ -342,6 +342,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2017/03/05/article-title/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -434,6 +444,8 @@
 
           
   <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
     
   </div>
 
@@ -704,18 +716,21 @@
 
 
   
-
-
-
-
-
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "博客评论",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
   
 
 
 
 
-
-  
 
 
 
